@@ -1,0 +1,12 @@
+.logo {
+  font-family: "Leckerli One", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-Size: 35px;
+  color: #3E4772;
+
+  position: absolute; /* Set the logo position to absolute */
+  left: 150px; /* Adjust the left position as needed */
+  top: 50%; /* Align the logo vertically at the center */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+}
