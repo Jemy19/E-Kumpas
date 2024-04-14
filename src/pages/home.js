@@ -1,11 +1,9 @@
-import Navbar from '../components/navbar.js';
-import Sidebar from '../components/sidebar.js';
+import Navbar from '../components/navbar';
 function home() {
     return(
         <>
+        <Navbar />
         <center>
-            <Navbar />
-            <Sidebar />
             <h1>HOME HOME</h1>
         </center>
         </>
