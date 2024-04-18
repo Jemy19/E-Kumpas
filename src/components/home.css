@@ -1,0 +1,126 @@
+/* home.css */
+.hometext{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.homeRow1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #141D48;
+}
+
+.homeItem1 {
+  height: 200px;
+  text-align: left;
+  background-color: #9dadd2;
+}
+
+.textVariant1 {
+  color: white;
+}
+
+.textVariant2 {
+  font-size: 25px;
+}
+
+.homeButton {
+  font-size: 20px;
+  text-transform: none;
+  background-color: #5e80cf;
+  color: white;
+}
+.homeButton:hover {
+  color: #141D48;
+  background-color: #ffffff;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.homeRow2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #141D48;
+  text-align: center;
+}
+.homeItem2 {
+  height: 350px;
+  text-align: left;
+  background-color: #ffffff;
+}
+.cardText{
+  font-size: 25px;
+  text-align: center;
+  color: #141D48;
+}
+.homeCard{
+  height: 150px;
+  color: #141D48;
+}
+
+.connectingButtonPos{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 50px 0 0 30px;
+}
+.homeItem3 {
+  height: 280px;
+  background-color: #141D48;
+}
+.homeRow3Col1Padding{
+  padding-top: 50px;
+}
+.homeRow3Col1{
+  font-family: "Leckerli One", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-Size: 100px;
+  color: #ffffff;
+}
+.homeRow3Col2{
+  font-size: 20px;
+  letter-spacing: 10px;
+  color: #ffffff;
+}
+.aboutUsText1{
+  font-size: 20px;
+  color: #ffffff;
+}
+.aboutUsText2{
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 800;
+}
+.aboutUsText3{
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  justify-content: baseline;
+}
+.homeItem4 {
+  height: 200px;
+  padding: 200px 50px 200px 50px
+}
+.homeItem4Container{
+  height: 263px;
+  background-color:#9dadd2;
+  border-radius: 20px 20px 0px 0px;
+  
+}
+.homeItem4ContainerText{
+  padding: 50px 50px 50px 50px;
+}
+.homeItem4Container2{
+  height: 34px;
+  background-color:#425788;
+  border-radius: 0px 0px 20px 20px;
+}
