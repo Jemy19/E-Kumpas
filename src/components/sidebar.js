@@ -12,7 +12,8 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import './sidebar.css'; // Import your custom CSS file if needed
-
+import AppBar from '@mui/material/AppBar';
+import Adminbar from './adminbar';
 
 const drawerWidth = 240;
 
@@ -20,6 +21,12 @@ export default function PermanentDrawerLeft() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
+      <AppBar
+        position="fixed"
+        sx={{ width: `calc(100% - ${drawerWidth}px)`, ml: `${drawerWidth}px`, backgroundColor: '#FFFFFF' }}
+      >
+        <Adminbar />
+      </AppBar>
       
       
       <Drawer

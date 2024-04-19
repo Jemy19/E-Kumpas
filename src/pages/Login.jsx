@@ -1,5 +1,6 @@
 import React from 'react';
 import loginImg from '../assets/lmao.jpg';
+import Logo from '../assets/images/LOGO.png';
 import Navbar from '../components/navbar';
 export default function Login() {
   return (
@@ -13,9 +14,9 @@ export default function Login() {
           alt="Login background"
         />
       </div>
+      
       <div className="flex items-center justify-center p-8 sm:p-12">
         <form className="max-w-[400px] w-full mx-auto bg-white p-4 rounded-lg shadow-md">
-          <h2 className="text-4xl font-bold text-center py-6">E-Kumpas</h2>
           <div className="flex flex-col py-2">
             <label>Username</label>
             <input className="border p-2 rounded-md" type="text" />
