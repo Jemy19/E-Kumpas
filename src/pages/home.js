@@ -1,15 +1,14 @@
 import Navbar from '../components/navbar.js';
+import './home.css';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Fab from '@mui/material/Fab';
-import '../components/home.css';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
 
 const Item = styled(Paper)(({ theme, height, bgcolor }) => ({
     backgroundColor: bgcolor,
@@ -22,10 +21,7 @@ const Item = styled(Paper)(({ theme, height, bgcolor }) => ({
 function home() {
     return (
         <>
-            <center>
-                <Navbar />
-
-            </center>
+            <Navbar />
             <Box className='hometext' sx={{ flexGrow: 1 }}>
                 <Grid container spacing={0}>
                     <Grid item xs={12}>
@@ -41,7 +37,7 @@ function home() {
                             <Fab variant="extended" className='homeButton'>
                                 Get early access!
                             </Fab>
-                            <img src="/assets/images/LF 1.png" alt="Batang Pinoy" className="image" />
+                            <img src="../assets/images/LF 1.png" alt="Batang Pinoy" className="image" />
 
                         </Item>
                     </Grid>
