@@ -1,4 +1,3 @@
-/* home.css */
 .hometext{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -11,21 +10,23 @@
   margin-bottom: 0px;
   color: #141D48;
 }
-
+ 
 .homeItem1 {
-  height: 200px;
+  height: 400px;
   text-align: left;
   background-color: #9dadd2;
+  padding: 50px 100px 50px 100px;
 }
-
+ 
 .textVariant1 {
   color: white;
-}
 
+}
+ 
 .textVariant2 {
   font-size: 25px;
 }
-
+ 
 .homeButton {
   font-size: 20px;
   text-transform: none;
@@ -37,12 +38,12 @@
   background-color: #ffffff;
 }
 .image {
-  width: 50px;
-  height: 50px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 270px;
+  right: 20px;
   transform: translate(-50%, -50%);
 }
 .homeRow2 {
@@ -52,7 +53,7 @@
   text-align: center;
 }
 .homeItem2 {
-  height: 350px;
+  height: 550px;
   text-align: left;
   background-color: #ffffff;
 }
@@ -61,21 +62,46 @@
   text-align: center;
   color: #141D48;
 }
+.homecard{
+  width: 500px;
+  height: 200px;
+}
 .homeCard{
   height: 150px;
   color: #141D48;
 }
-
+ 
 .connectingButtonPos{
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   padding: 50px 0 0 30px;
 }
-.homeItem3 {
-  height: 280px;
+.homeItem3-1,
+.homeItem3-2 {
+  height: 500px;
   background-color: #141D48;
+  color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  .homeItem3-1 {
+    padding: 80px 50px 50px 50px; 
+  }
+  .homeItem3-2 {
+    padding: 60px 30px 30px 30px; 
+  }
+}
+
+@media (min-width: 601px) {
+  .homeItem3-1 {
+    padding: 80px 50px 50px 80px; 
+  }
+  .homeItem3-2 {
+    padding: 80px 50px 50px 50px;
+  }
+}
+
 .homeRow3Col1Padding{
   padding-top: 50px;
 }
@@ -105,22 +131,61 @@
   font-weight: 400;
   color: #ffffff;
   justify-content: baseline;
+ 
 }
 .homeItem4 {
-  height: 200px;
-  padding: 200px 50px 200px 50px
+  height: 500px;
+  padding: 100px 50px 50px 50px;
 }
 .homeItem4Container{
   height: 263px;
   background-color:#9dadd2;
   border-radius: 20px 20px 0px 0px;
-  
+  padding-top: 50px;
+  padding-left: 500px;
 }
-.homeItem4ContainerText{
-  padding: 50px 50px 50px 50px;
+.homeItem4ContainerText {
+  font-size: 30px; 
+  font-weight: 600;
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  .homeItem4ContainerText {
+    font-size: 20px;
+  }
 }
 .homeItem4Container2{
   height: 34px;
   background-color:#425788;
   border-radius: 0px 0px 20px 20px;
+}
+.image2 {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  position: absolute;
+  top: 1730px;
+  left: 300px;
+  transform: translate(-50%, -50%);
+}
+
+.homeItem4Button{
+  display: flex;
+}
+.homeItem4Button1{
+  height: 80px;
+  width: 220px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 15px;
+  margin-left: 100px;
+  border-radius: 20px;
+  display: flex;
+  
+}
+
+.homeItem4ButtonImg{
+  height: 50px;
+  padding-left: 0px 5px 0px 0px;
+  margin-right: 10px;
 }
